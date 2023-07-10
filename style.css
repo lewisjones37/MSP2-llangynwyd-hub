@@ -19,6 +19,8 @@ body {
 h3 {
     color: #fff;
     margin: 10px 0 20px;
+    text-align: center;
+    margin: 20px;
 }
 
 .container {
@@ -44,4 +46,8 @@ textarea {
     margin: 0 5px 10px 0;
     border-radius: 50px;
     display: inline-block;
+}
+
+.tag.highlight {
+    background-color: #cacaca;
 }
