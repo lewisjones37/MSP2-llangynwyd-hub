@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(24, 209, 24);
+    background: linear-gradient(rgb(24, 209, 24), rgb(3, 87, 3));
     font-family: 'Comfortaa', sans-serif;
     display: flex;
     flex-direction: column;
