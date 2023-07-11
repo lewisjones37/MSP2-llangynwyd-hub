@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0;
 }
 
@@ -24,7 +24,20 @@ body {
     align-items: center;
     left: 20%;
     top: 0;
+    
 }
+
+@media only screen and (max-width: 600px), 
+            screen and (max-height: 765px) {
+    .container {
+        height: 500px;
+    }
+    
+    .logo {
+      background-image: url(/assets/images/llan_badge.png);
+      height: 45vh;
+    }
+  }
 
 h3 {
     color: #fff;
