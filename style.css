@@ -16,11 +16,22 @@ body {
     margin: 0;
 }
 
+.logo {
+    height: 35vh;
+    background-image: url(/assets/images/llan_badge.png);
+    background-repeat: no-repeat;
+    position: relative;
+    align-items: center;
+    left: 20%;
+    top: 0;
+}
+
 h3 {
     color: #fff;
     margin: 10px 0 20px;
     text-align: center;
-    margin: 20px;
+    letter-spacing: 1px;
+    
 }
 
 .container {
