@@ -9,10 +9,10 @@ body {
     background-color: #eafbff;
     background-image: linear-gradient(
         to bottom,
-        #eafbff 0%,
-        #eafbff 50%,
-        #5290f9 50%,
-        #5290f9 100%
+        #fff 0%,
+        #fff 50%,
+        rgb(24, 209, 24) 50%,
+        rgb(24, 209, 24) 100%
     );
     font-family: 'Comfortaa', sans-serif;
     display: flex;
@@ -26,6 +26,7 @@ nav {
     background-color: #fff;
     padding: 20px;
     width: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +75,7 @@ nav ul a {
     background-color: #fff;
     border: 0;
     cursor: pointer;
-    padding: 0;
+    padding: 10px;
     position: relative;
     height: 30px;
     width: 30px;
@@ -85,7 +86,7 @@ nav ul a {
 }
 
 .icon .line {
-    background-color: #5290f9;
+    background-color: rgb(24, 209, 24);
     height: 2px;
     width: 20px;
     position: absolute;
