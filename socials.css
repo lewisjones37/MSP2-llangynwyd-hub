@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #8e44ad;
+    background: linear-gradient(rgb(24, 209, 24), rgb(3, 87, 3));
     color: #fff;
     font-family: 'Comfortaa', sans-serif;
     display: flex;
