@@ -23,13 +23,24 @@ body {
     margin: 0;
 }
 
+
+
 .navbar-img {
     height: 200px;
     width: 200px;
     background: url(/assets/images/llan_badge_small.png);
     display: flex;
     background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    top: 100px;
+
 }
+
+
 
 nav {
     background-color: #fff;
