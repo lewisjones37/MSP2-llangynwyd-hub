@@ -22,6 +22,17 @@ body {
     margin: 0;
 }
 
+.navbar-img {
+    height: 200px;
+    width: 200px;
+    background: url(/assets/images/llan_badge_small.png);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
 nav {
     background-color: #fff;
     padding: 20px;
